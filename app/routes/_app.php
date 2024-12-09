@@ -26,3 +26,5 @@ app()->get('/cliente/estado/{estado_civil}', 'clienteController@consultar_estado
 // agregar registros nuevos a la base de datos metodo POST
 app()->post('/cliente', 'clienteController@agregar' );
 
+app()->get('/factura', 'facturaController@index' );
+
